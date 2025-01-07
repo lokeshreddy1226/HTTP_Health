@@ -14,6 +14,12 @@ This program monitors the health of HTTP endpoints, logs their availability, and
    ```bash
    pip install -r requirements.txt
 3. Run the program with a YAML configuration file:
+   ```bash
     python main.py config.yaml
 
+## Test Instructions
+   Execute the test Script
+   ```bash
+   pytest test_health_check.py
+   
 
